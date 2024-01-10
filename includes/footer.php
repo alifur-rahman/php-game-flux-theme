@@ -28,16 +28,13 @@
 <script src="js/noframework.waypoints.js"></script>
 <!-- Template Main JS File -->
 
+
 <script src="js/main.js"></script>
 <!-- Theme Switcher -->
 
 <script type="text/javascript" src="js/active.js?20220807.03"></script>
-<script>
-    $(".back-to-top").click(function () {
-        $("html, body").animate({ scrollTop: 0 }, 800);
-        return false;
-    });
-</script>
+<script src="js\alinclude.js"></script>
+
 </body>
 
 </html>
