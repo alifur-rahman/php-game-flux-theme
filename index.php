@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php require_once('includes/header.php'); ?>
 <!-- ======= Server News Updates ======= -->
 <section class="newsupdates content-wrap" id="newsupdates">
   <div class="container">
@@ -7,7 +7,7 @@
     </div>
     <div class="news-updates">
       <div class="tab-content row" id="nav-tabContent">
-        <div class="news-content owl-carousel owl-theme d-flex flex-wrap">
+        <div class="news-content global_owl-carousel owl-carousel owl-theme d-flex flex-wrap">
           <div class="news-article card shadow m-3 mx-1" data-aos="flip-right" data-aos-delay="200">
             <div class="card-img-top thumbnail-container">
               <img class="img-fluid w-100 article-thumbnail" src="img/newsthumbnails/A1webimage.jpg" />
@@ -330,4 +330,4 @@
 <!-- End LowProfileMode -->
 
 
-<?php require_once('footer.php');
+<?php require_once('includes/footer.php');
